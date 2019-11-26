@@ -1,5 +1,9 @@
-h1,h2  {
-  color: blue;
+h1  {
+  color: black;
+}
+
+h3 {
+  color: grey;
 }
 
 .introduction {
