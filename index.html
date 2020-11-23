@@ -1,97 +1,365 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Insira um título massa aqui</title>
-  <link href='https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type="text/css'>
-<meta name=" viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-  <link rel="stylesheet" href="./style.css">
+  <title>AndreMoreira.dev</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/default.css'>
+<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/layout.css'>
+<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/media-queries.css'>
+<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/magnific-popup.css'><link rel="stylesheet" href="./style.css">
 
 </head>
-
 <body>
-  <!-- partial:index.partial.html -->
-  <a name="top"></a>
-  <div class="home-page page">
-    <div class="container">
-      <nav class="navbar navbar-default clearfix">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed clearfix" data-toggle="collapse" data-target="#navbar"
-              aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-      <div class="container-home">
-        <h1 class="text-center"><a href="https://andremoreira.dev">André<span class="tiny-space">
-            </span>Moreira/<span class="tiny-space"> </span>dev</a></h1>
-        <p class="lead text-center">Adicionar aqui um pequeno resumo dos seus grandes feitos.
-          <br>Por favor não leve isso a sério. Eu só queria ter um site. ¯\_(ツ)_/¯   </p>
-      </div>
-      <div class="text-center">
-        <p id="talk-box" class="text-primary">&nbsp;</p>
-      </div>
-      <div class="home-social-container text-center">
-        <ul class="home-social">
-          <li>
-            <a href="https://www.facebook.com/AndreNMoreira" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com/andremoreira1" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/andremoreira1/" target="_blank">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https:///" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/andremoreira1" target="_blank">
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-          </a>
-          </li>
-        </ul>
-      </div>
+<!-- partial:index.partial.html -->
+<!-- Header
+   ================================================== -->
+<header id="home">
+
+  <!-- <nav id="nav-wrap">
+    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+    <ul id="nav" class="nav">
+      <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+      <li><a class="smoothscroll" href="#about">About</a></li>
+      <li><a class="smoothscroll" href="#resume">Resume</a></li>
+      <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+      <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+      <li><a class="smoothscroll" href="#contact">Contact</a></li>
+    </ul> -->
+    <!-- end #nav -->
+
+  </nav>
+  <!-- end #nav-wrap -->
+
+  <div class="row banner">
+    <div class="banner-text">
+      <h1 class="responsive-headline">André Moreira</h1>
+      <h3><span>QA Engineer</span>, 27 years old <span>working</span> at Base 2 in Belo Horizonte, Brazil.</h3>
+      <hr />
+      <ul class="social">
+        <li><a href="https://www.facebook.com/andrenmoreira"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.twitter.com/andremoreira1"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/andremoreira1"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.github.com/andremoreira1"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/andremoreira1/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+
+      </ul>
     </div>
   </div>
-  <div class="about-page page">
-    <a name="about"></a>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-6 col-sm-5 card card-about">
-          <p>Tentando ganhar o mundo desde 1993.</p>
-          </a>
-        </div>
-      </div>
-    </div>
-        <footer class="footer">
-          <div class="container">
-            <p class="text-muted">&copy; ¯\_(ツ)_/¯  </p>
-          </div>
-        </footer>
-        <!-- partial -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src='https://www.getbootstrap.com/dist/js/bootstrap.min.js'></script>
-        <script src='https://codepen.io/mca62511/pen/qZoPzM.js'></script>
-        <script src="./script.js"></script>
 
+  <!-- <p class="scrolldown">
+    <a class="smoothscroll" href="#about"><i class="fa fa-angle-down"></i></a>
+  </p> -->
+
+</header>
+<!-- Header End -->
+
+
+<!-- About Section
+   ================================================== -->
+<!-- <section id="about">
+
+  <div class="row">
+
+    <div class="three columns">
+
+      <img class="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/me.jpeg" alt="" />
+
+    </div>
+
+    <div class="nine columns main-col">
+
+      <h2>About Me</h2>
+
+      <p>Research software engineer, a ployglot programmer, freelance blogger and a TEFL certified English teacher. I love to give back to the community in whatever form it comes. Brought up in Delhi, the capital of India, tasting the real fast and busy
+        life of a city, now enjoying my programming passion in the middle of a beautiful valley in South Korea. Hiking and horse-riding are other things I do in my free time.
+      </p>
+
+      <div class="row">
+
+        <div class="columns contact-details">
+
+          <h2>Contact Details</h2>
+          <p class="address">
+            <span>Diwesh Saxena</span><br>
+            <span>Beautiful Valley<br>
+						                   Mountain View,South Korea
+                 </span><br>
+            <span>(xxx)xxx-xxx</span><br>
+            <span>diweshsaxena@gmail.com</span>
+          </p>
+
+        </div>
+
+        <div class="columns download">
+          <p>
+            <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+          </p>
+        </div>
+
+      </div> -->
+      <!-- end row -->
+
+    <!-- </div> -->
+    <!-- end .main-col -->
+
+  <!-- </div> -->
+
+</section>
+<!-- About Section End-->
+
+<!-- Resume Section
+   ================================================== -->
+<!-- <section id="resume"> -->
+
+  <!-- Education
+      ----------------------------------------------- -->
+  <!-- <div class="row education">
+
+    <div class="three columns header-col">
+      <h1><span>Education</span></h1>
+    </div>
+
+    <div class="nine columns main-col">
+
+      <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Galgotia University</h3>
+          <p class="info">Bachelors in Information Technology<span>&bull;</span> <em class="date">Jan 2010</em></p>
+
+          <p>
+            This was the first where I started exploring new research fields and dived into trying out new technologies and concepts. Algorithms being my favorite, I soon developed a passion for web and mobile platforms.
+          </p>
+
+        </div>
+
+      </div> -->
+      <!-- item end -->
+
+      <!-- <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Delhi Public School</h3>
+          <p class="info">Science with Computer Science <span>&bull;</span> <em class="date">June 2005</em></p>
+
+          <p>
+            My high school kept my passion for technology ignited. Though I remember having a specific interest in Chemistry apart from Computers, I prefreably decide to blend both and developed a chemmistry with computer science.
+          </p>
+
+        </div>
+
+      </div> -->
+      <!-- item end -->
+
+    <!-- </div> -->
+    <!-- main-col end -->
+
+  <!-- </div> -->
+  <!-- End Education -->
+
+  <!-- Skills
+      ----------------------------------------------- -->
+  <!-- <div class="row skill">
+
+    <div class="three columns header-col">
+      <h1><span>Skills</span></h1>
+    </div>
+
+    <div class="nine columns main-col">
+
+      <p>I call myself a polyglot programmer, a hybrid programmer in simpler terms.I have more than 6.8 years of experience in the field of Information Technology, with a consistent track record of promotions and increased responsibilities. I have a great
+        knowledge of C++, C, Java, LINUX, .NET and SQL server in PC based and real-time systems. Additional to that I have also been exposed to the work on embedded systems and mobile platforms like Android .I have also worked as a full-stack web developer
+        and familiar with latest web technology stacks like Nodejs and MongoDB .My experience in the industry as a software developer and recruitment , makes me a versatile , dynamic and a flexible team player. I enjoy working in a high energy and high
+        performance work environment. I have worked on and learned a great deal from several very interesting and complex projects
+      </p>
+
+      <div class="bars">
+
+        <ul class="skills">
+          <li><span class="bar-expand mobile"></span><em>Mobile Development(Android/iOS)</em></li>
+          <li><span class="bar-expand frontend"></span><em>Web Design(Frontend)</em></li>
+          <li><span class="bar-expand backend"></span><em>Web Development(Backend)</em></li>
+          <li><span class="bar-expand desktop"></span><em>Software Development</em></li>
+
+        </ul>
+
+      </div> -->
+      <!-- end skill-bars -->
+
+    </div>
+    <!-- main-col end -->
+
+  </div>
+  <!-- End skills -->
+
+</section>
+<!-- Resume Section End-->
+
+<!-- Portfolio Section
+   ================================================== -->
+<!-- <section id="portfolio">
+
+  <div class="row">
+
+    <div class="twelve columns collapsed">
+
+      <h1>Check Out Some of My Works.</h1> -->
+
+      <!-- portfolio-wrapper -->
+      <!-- <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+        <div class="columns portfolio-item">
+          <div class="item-wrap">
+
+            <a href="#modal-01" title="">
+              <img alt="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/f2.jpg">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5 style="color:#11ABB0">Remote Control App</h5>
+                  <p>Launcher Icon</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
+
+          </div>
+        </div> -->
+        <!-- item end -->
+
+        <!-- <div class="columns portfolio-item">
+          <div class="item-wrap">
+
+            <a href="#modal-02" title="">
+              <img alt="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/screen10.jpg">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5 style="color:#11ABB0">ECG & Fitness App</h5>
+                  <p>Mobile Application</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
+
+          </div>
+        </div> -->
+        <!-- item end -->
+
+        <!-- <div class="columns portfolio-item">
+          <div class="item-wrap">
+
+            <a href="#modal-03" title="">
+              <img alt="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/Screenshot_2016-05-20-13-09-02.png">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5 style="color:#11ABB0">Health Log</h5>
+                  <p>Mobile Development</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
+
+          </div>
+        </div> -->
+        <!-- item end -->
+
+        <!-- <div class="columns portfolio-item">
+          <div class="item-wrap">
+
+            <a href="#modal-04" title="">
+              <img alt="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/double-mat-pages.jpg">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5 style="color:#11ABB0">IOT massage bed controller</h5>
+                  <p>Web application</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
+
+          </div>
+        </div> -->
+        <!-- item end -->
+
+        <!-- <div class="columns portfolio-item">
+          <div class="item-wrap">
+
+            <a href="#modal-05" title="">
+              <img alt="" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/RFID_new_Design2.PNG">
+              <div class="overlay">
+                <div class="portfolio-item-meta">
+                  <h5 style="color:#11ABB0">RFID Bio-Medical App</h5>
+                  <p>Desktop Application</p>
+                </div>
+              </div>
+              <div class="link-icon"><i class="icon-plus"></i></div>
+            </a>
+
+          </div>
+        </div> -->
+        <!-- item end -->
+
+
+      <!-- </div> -->
+      <!-- portfolio-wrapper end -->
+
+    <!-- </div> -->
+    <!-- twelve columns end -->
+
+
+    <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+    <!-- <div id="modal-01" class="popup-modal mfp-hide">
+
+      <img class="scale-with-grid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/f2.jpg" alt="" />
+
+      <div class="description-box">
+        <h4>Remote Controller App</h4>
+        <p>An IR remote controller developed for operating a few supported massage beds</p>
+        <span class="categories"><i class="fa fa-tag"></i>Branding, Logo Design</span>
+      </div>
+
+      <div class="link-box">
+        <a href="https://diweshsaxena.carbonmade.com/" target="_blank">Details</a>
+        <a class="popup-modal-dismiss">Close</a>
+      </div>
+
+    </div> -->
+
+<!-- footer
+   ================================================== -->
+<footer>
+
+  <div class="row">
+
+      <ul class="copyright">
+        <li>&copy; Copyright 2020</li>
+        <li>Made with <span>Love</span></li>
+      </ul>
+
+    </div>
+
+    <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="	fa fa-angle-up fa-2x" style="vertical-align:middle"></i></a></div>
+
+  </div>
+
+</footer>
+<!-- Footer End-->
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/modernizr.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/jquery-1.10.2.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/jquery-migrate-1.2.1.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/jquery.flexslider.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/waypoints.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/jquery.fittext.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/magnific-popup.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/665940/init.js'></script>
 </body>
 </html>
